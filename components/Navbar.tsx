@@ -23,17 +23,18 @@ const Navbar = () => {
       <nav className='nav'>
         <Link href='/' className='flex items-center gap-1'>
           <Image
-            src='/assets/icons/logo.svg'
-            width={27}
-            height={27}
+            src='/assets/images/logo.png'
+            width={50}
+            height={50}
             alt='logo'
           />
 
           <p className='nav-logo'>
-            Price<span className='text-primary'>Wise</span>
+            Price<span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-900'>Port</span>
           </p>
 
         </Link>
+      
 
         <div className='flex items-center gap-5'>
           {navIcons.map((icon) => (

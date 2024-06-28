@@ -15,7 +15,7 @@ const Home = async() => {
             <p className='small-text'>
               Smart Shopping Starts Here:
               <Image
-                src='/assets/icons/arrow-right.svg'
+                src='/assets/images/arrow-right.png'
                 alt='arrow-right'
                 width={16}
                 height={16}
@@ -24,7 +24,7 @@ const Home = async() => {
 
             <h1 className="head-text">
               Unleash the Power of
-              <span className="text-primary"> PriceWise</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-900"> PricePort</span>
             </h1>
 
             <p className="mt-6">
